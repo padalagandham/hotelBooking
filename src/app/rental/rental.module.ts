@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { RentalService } from './shared/rental.service';
 import { RentalDetailsComponent } from './rental-details/rental-details.component';
 import { Routes, RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [{
     path: 'rentals',
@@ -23,7 +24,8 @@ const routes: Routes = [{
         RentalDetailsComponent
       ],
     imports : [CommonModule,
-        RouterModule.forChild(routes)
+        RouterModule.forChild(routes),
+        HttpClientModule
     ],
     providers : [RentalService]
 })

@@ -23,7 +23,6 @@ export class RentalDetailsComponent implements OnInit {
 
   getProductData(){
       this.rentalService.getRentalById(this.currentId).subscribe((rentalObj)=> {
-        debugger;
         this.rentalObj = rentalObj;
       });
   }

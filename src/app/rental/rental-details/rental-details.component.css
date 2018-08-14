@@ -1,0 +1,62 @@
+#rentalObjDetails .upper-section{
+    margin-bottom: 30px;
+}
+
+#rentalObjDetails .upper-section img{
+    width: 100%;
+}
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-assets  span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-assets .title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-description {
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-city {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-title {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+#rentalObjDetails .details-section .rentalObj .rentalObj-type{
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#rentalObjDetails .details-section {
+    color: "#ccc";
+}
+
+#rentalObjDetails .details-section .rentalObj-room-info {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#rentalObjDetails .details-section .rentalObj-room-info span {
+    margin-right: 10px;
+}
+
+#rentalObjDetails .details-section .rentalObj-room-info  i {
+    margin-right: 2px;
+}
